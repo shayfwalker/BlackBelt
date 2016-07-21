@@ -75,11 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'port' => '8889',
-	'hostname' => 'localhost',
+	'hostname' => 'localhost:80',
 	'username' => 'root',
 	'password' => 'root',
-	'database' => 'products',
+	'database' => '',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
